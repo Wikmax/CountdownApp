@@ -1,0 +1,55 @@
+@import "./reset.scss";
+@font-face {
+   font-family: RobotoCondensed;
+   src: url(../app/assets/roboto-condensed.light.ttf) format("truetype");
+   font-weight: 800;
+}
+@font-face {
+   font-family: EconomicaBold;
+   src: url(../app/assets/economica-bold.ttf) format("truetype");
+}
+.mainComponent {
+   font-family: "RobotoCondensed";
+   h1,
+   h2,
+   h3,
+   h4,
+   h5,
+   h6 {
+      font-family: "EconomicaBold";
+   }
+   input {
+      text-align: center;
+   }
+   button {
+      align-items: center;
+      margin: auto 10px;
+
+      width: 221px;
+      height: 50px;
+      cursor: pointer;
+      font-size: 20px;
+      border: 1px grey outset;
+      background-color: white;
+   }
+   margin: 5px;
+   text-align: center;
+   input {
+      width: 221px;
+      height: 50px;
+      margin: 10px;
+   }
+}
+.clock {
+   display: inline;
+   margin: 10px;
+   font-size: 25px;
+   font-style: oblique;
+}
+.mainComponent-clock{
+  padding: 15px;
+  border: 2px black solid
+}
+h3 {
+   font-size: 30px;
+}
